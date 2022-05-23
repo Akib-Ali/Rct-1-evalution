@@ -46,7 +46,7 @@ useEffect(()=>{
   
     <div>
        {loading && 
-        <div id="loading-container"> 
+        <div id="loading-container"> ...loading
 
         </div> }
           <Button id="SORT_BUTTON" title={`Sort by Ascending Salary`} />  
