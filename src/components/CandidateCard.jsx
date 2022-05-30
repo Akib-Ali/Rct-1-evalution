@@ -1,5 +1,7 @@
 import styles from "./CandidateCard.module.css";
 
+
+
 function CandidateCard({name,avatar,salary,title,company_name}) {
   return (
     <div data-testid="candidate-container" className={styles.container}>
